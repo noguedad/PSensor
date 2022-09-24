@@ -1,0 +1,222 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F690 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+"58 C:\Users\nogue\Proyectos\PSENSOR\psensor_16f690.X\main.c
+[v _picSetup picSetup `(v  1 e 1 0 ]
+"98
+[v _readSensor readSensor `(i  1 e 2 0 ]
+"108
+[v _normalBlink normalBlink `(v  1 e 1 0 ]
+"119
+[v _setmodeBlink setmodeBlink `(v  1 e 1 0 ]
+"130
+[v _main main `(v  1 e 1 0 ]
+[s S201 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+`uc 1 RP 1 0 :2:5 
+`uc 1 IRP 1 0 :1:7 
+]
+"100 C:/Users/nogue/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f690.h
+[s S209 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RP0 1 0 :1:5 
+`uc 1 RP1 1 0 :1:6 
+]
+[s S213 . 1 `uc 1 CARRY 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ZERO 1 0 :1:2 
+]
+[u S217 . 1 `S201 1 . 1 0 `S209 1 . 1 0 `S213 1 . 1 0 ]
+[v _STATUSbits STATUSbits `VES217  1 e 1 @3 ]
+"167
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"217
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S129 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231
+[u S135 . 1 `S129 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES135  1 e 1 @6 ]
+"256
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S96 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"273
+[u S105 . 1 `S96 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES105  1 e 1 @7 ]
+"325
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S238 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"342
+[u S247 . 1 `S238 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES247  1 e 1 @11 ]
+"517
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"595
+[v _T2CON T2CON `VEuc  1 e 1 @18 ]
+"1074
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1081
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S50 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 VCFG 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"1111
+[s S56 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S63 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S66 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S69 . 1 `S50 1 . 1 0 `S56 1 . 1 0 `S63 1 . 1 0 `S66 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES69  1 e 1 @31 ]
+"1176
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1246
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1296
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1335
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1397
+[v _PIE1 PIE1 `VEuc  1 e 1 @140 ]
+"1467
+[v _PIE2 PIE2 `VEuc  1 e 1 @141 ]
+"1506
+[v _PCON PCON `VEuc  1 e 1 @142 ]
+"1545
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"1610
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @144 ]
+"1967
+[v _WPUA WPUA `VEuc  1 e 1 @149 ]
+"2595
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2602
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2649
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"2656
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"2677
+[v _WPUB WPUB `VEuc  1 e 1 @277 ]
+"2834
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @281 ]
+"2899
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @282 ]
+"3003
+[v _ANSEL ANSEL `VEuc  1 e 1 @286 ]
+"3065
+[v _ANSELH ANSELH `VEuc  1 e 1 @287 ]
+"3103
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+[s S181 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3118
+[u S188 . 1 `S181 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES188  1 e 1 @396 ]
+"3148
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"52 C:\Users\nogue\Proyectos\PSENSOR\psensor_16f690.X\main.c
+[v _SETMODE SETMODE `i  1 e 2 0 ]
+"53
+[v _SENSE SENSE `i  1 e 2 0 ]
+"54
+[v _SENSE_COUNT SENSE_COUNT `i  1 e 2 0 ]
+"55
+[v _THRESHOLD THRESHOLD `i  1 e 2 0 ]
+"130
+[v _main main `(v  1 e 1 0 ]
+{
+"138
+[v main@BTN_COUNT BTN_COUNT `i  1 a 2 7 ]
+"229
+} 0
+"119
+[v _setmodeBlink setmodeBlink `(v  1 e 1 0 ]
+{
+"127
+} 0
+"98
+[v _readSensor readSensor `(i  1 e 2 0 ]
+{
+"105
+} 0
+"58
+[v _picSetup picSetup `(v  1 e 1 0 ]
+{
+"95
+} 0
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 a 1 1 ]
+"19
+} 0
+"108 C:\Users\nogue\Proyectos\PSENSOR\psensor_16f690.X\main.c
+[v _normalBlink normalBlink `(v  1 e 1 0 ]
+{
+"116
+} 0
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 0 ]
+[v eeprom_write@addr addr `uc  1 a 1 2 ]
+"9
+} 0
